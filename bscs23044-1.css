@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+nav {
+    height: 70px;
+    background: #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+
+
+}
+
+.logo a{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2.5rem;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color:#000;
+    padding: 0 2.0rem;
+}
+
+nav a:hover{
+    color:#d8d2d6;
+}
+
+.section1{
+    background: #d8d2d6;
+}
+
+.section1-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75vh;
+    padding: 4rem calc((100vw - 1300px) / 2);
+
+}
+
+.section1-column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding:0rem 5rem 3rem 3rem;
+}
+
+.section1-column-left h1{
+    margin-bottom: 1rem;
+    font-size:3.5rem;
+}
+
+.section1-column-left p{
+    margin-bottom: 3rem;
+    font-size:1rem;
+    line-height: 1.5rem;
+}
+
+button {
+    margin:-2rem 2rem 2rem 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    background: #808080;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color:#000;
+    padding: 1rem;
+
+}
+
+button a:hover{
+    color:#a7bacb;
+}
+
+.section2 {
+    background-color: #d8d2d6; 
+    padding: 20px; 
+  }
+  
+  .section2-container {
+    display: flex;
+    justify-content: space-around; 
+}
+  
+  .product-box {
+    background-color:#808080; 
+    border-radius: 50px;
+    border: none;
+    padding: 20px; 
+    text-align: center; 
+    width: 275px; 
+  }
+  
+  .product-box img {
+    max-width: 100%;
+    border-radius: 50px; 
+    }
+  
+  .product-box h3 {
+    font-size: 1.5rem; 
+    color: #4d4d4d; 
+    margin-top: 30px;
+  }
+  
+  .product-box p {
+    font-size: 1rem; 
+    color: #f2f2f2; 
+  }
+  
+  .product-box button {
+    background-color: #845534;
+    color:  #4d4d4d; 
+    border: none;
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .product-box button:hover {
+    background-color: #cf956d;
+    color: #808080; 
+  }
+  
